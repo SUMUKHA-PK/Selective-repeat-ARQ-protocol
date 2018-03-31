@@ -3,6 +3,9 @@
 ACK = 1;                                      # Positive Acknowledgement
 NAK = -1;                                     # Negative Acknowledgement
 
+PACKET_LENGTH = input("Input the lenght of each packet: ");
+                                              # Number of blocks each packet has
+
 n = input("Enter the size of the sender and receiver: ");
 
 sender = zeros(n,1);                          # The sender and receiver vectors of size 'n'
@@ -32,12 +35,18 @@ while n>0
 end
 end
 
+classdef Block                                # class maintaining the timer for each block
+  properties
+    time;
+  end
+end
+
 # FOLLOW COMMENTING METHODOLOGY
 
 # TODO :
 # 1. Include block/packet transmission and introduce errors inside
 # 2. Include whatever the hell Markov means. Something related to probability.
-# 3. It is already sr arq, we have to find Throughput. Correctly recieved VS sent. 
+# 3. It is already sr arq, we have to find Throughput. Correctly recieved VS sent.
 # 4. introduce other forms of loss of message
 # 5. Include the concept of buffers
-# 6.
+# 6. Timer for each block
