@@ -5,8 +5,8 @@ NAK = -1;                                     # Negative Acknowledgement
 
 n = input("Enter the size of the sender and receiver: ");
 
-sender = zeros(n);                            # The sender and receiver of size 'n'
-receiver = zeros(n);
+sender = zeros(n,1);                            # The sender and receiver of size 'n'
+receiver = zeros(n,1);
 
 for i = 1:n
   d = input("Enter the data bits to be sent: ");
