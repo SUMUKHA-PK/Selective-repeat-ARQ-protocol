@@ -3,10 +3,11 @@
 ACK = 1;                                      # Positive Acknowledgement
 NAK = -1;                                     # Negative Acknowledgement
 
-PACKET_LENGTH = input("Input the lenght of each packet: ");
-                                              # Number of blocks each packet has
+BLOCK_LENGTH = input("Input the lenght of each blocks: ");
+                                              # Number of packets each block has
 
 n = input("Enter the size of the sender and receiver: ");
+                                              # Number of bits that are to be transferred (must be greater than BLOCK_LENGTH)
 
 sender = zeros(n,1);                          # The sender and receiver vectors of size 'n'
 receiver = zeros(n,1);
@@ -16,9 +17,12 @@ for i = 1:n
   sender(i) = d;                              # Input the data to be sent 0's or 1's
 end
 
+buffer = CQueue(n);                           # The buffer queue
+
 i=1;                                          # Block count
 disp(sender);
 while n>0
+
     receiver(i)=mod(randi(5),2);              # Using random function to mimic errors in transmission
     if receiver(i)==sender(i)                 # If what is recieved is correct,
       ack = 1;                                # Set Acknowledgement as 1,
@@ -28,18 +32,14 @@ while n>0
     if ack==ACK                               # Move to next transmission if recieved  is correct.
       disp(ack);
       n--;
-      i++;
     else if ack == NAK                        # Go on with the re transmission if the Acknowledgement is Negative
       disp(ack);
     end
 end
 end
 
-classdef Block                                # class maintaining the timer for each block
-  properties
-    time;
-  end
-end
+function queuepop(a)
+  
 
 # FOLLOW COMMENTING METHODOLOGY
 
@@ -49,4 +49,6 @@ end
 # 3. It is already sr arq, we have to find Throughput. Correctly recieved VS sent.
 # 4. introduce other forms of loss of message
 # 5. Include the concept of buffers
-# 6. Timer for each block
+# 6. Timer for each packet (localtime(time()) --- Difference between t.secs)
+# 7. Run from top to bottom, if there is an error in transmission put it to buffer, keep clearing buffer.
+# 8.
