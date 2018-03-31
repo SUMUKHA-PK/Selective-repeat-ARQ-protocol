@@ -36,5 +36,8 @@ end
 
 # TODO :
 # 1. Include block/packet transmission and introduce errors inside
-# 2. Include whatever the hell Markov means
-# 3. It is already sr arq, we have to find Throughput.
+# 2. Include whatever the hell Markov means. Something related to probability.
+# 3. It is already sr arq, we have to find Throughput. Correctly recieved VS sent. 
+# 4. introduce other forms of loss of message
+# 5. Include the concept of buffers
+# 6.
