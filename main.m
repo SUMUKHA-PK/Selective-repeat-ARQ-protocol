@@ -16,7 +16,7 @@ end
 i=1;                                          # Block count
 disp(sender);
 while n>0
-    receiver(i)=mod(randi(5),2)               # Using random function to mimic errors in transmission
+    receiver(i)=mod(randi(5),2);              # Using random function to mimic errors in transmission
     if receiver(i)==sender(i)                 # If what is recieved is correct,
       ack = 1;                                # Set Acknowledgement as 1,
     else
@@ -24,14 +24,15 @@ while n>0
     end
     if ack==ACK                               # Move to next transmission if recieved  is correct.
       disp(ack);
-      n--
-      i++
+      n--;
+      i++;
     else if ack == NAK                        # Go on with the re transmission if the Acknowledgement is Negative
       disp(ack);
     end
 end
 end
 
+# FOLLOW COMMENTING METHODOLOGY
 
 # TODO :
 # 1. Include block/packet transmission and introduce errors inside
