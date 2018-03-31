@@ -5,14 +5,15 @@ NAK = -1;                                     # Negative Acknowledgement
 
 n = input("Enter the size of the sender and receiver: ");
 
-sender = zeros(n,1);                            # The sender and receiver of size 'n'
+sender = zeros(n,1);                          # The sender and receiver vectors of size 'n'
 receiver = zeros(n,1);
 
 for i = 1:n
   d = input("Enter the data bits to be sent: ");
   sender(i) = d;                              # Input the data to be sent 0's or 1's
 end
-i=1;
+
+i=1;                                          # Block count
 disp(sender);
 while n>0
     receiver(i)=mod(randi(5),2)               # Using random function to mimic errors in transmission
@@ -30,3 +31,9 @@ while n>0
     end
 end
 end
+
+
+# TODO :
+# 1. Include block/packet transmission and introduce errors inside
+# 2. Include whatever the hell Markov means
+# 3. It is already sr arq, we have to find Throughput.
