@@ -16,7 +16,7 @@ Sender:<br>
 Once the sender has sent all the frames in its window, it re-sends the frame number given by the ACKs, and then continues where it left off.
 
 
-![img1](https://10.100.13.215/16CO145/CO250-MP-131-145-207/blob/master/img1.png?raw=true)
+![](./images/img1.png)
 
 
 ##### Characteristics of Selective Repeat :<br>
@@ -47,7 +47,7 @@ Sender:<br>
 Once the sender has sent all of the frames in its window, it will detect that all of the frames since the first lost frame are outstanding, and will go back to the sequence number of the last ACK it received from the receiver process and fill its window starting with that frame and continue the process over again.
 
 
-![img2](https://10.100.13.215/16CO145/CO250-MP-131-145-207/blob/master/img2.png "img2")
+![](./images/img2.png)
 
 
 ##### Characteristics of Go-Back-N ARQ Protocol:
@@ -57,4 +57,4 @@ The go-back-N protocol also takes care of damaged frames and damaged ACKs.
 
 **COMPARISION OF ALL THE PROTOCOLS**
 
-![img3](https://10.100.13.215/16CO145/CO250-MP-131-145-207/blob/master/img3.png "img3")
+![](./images/img3.png)

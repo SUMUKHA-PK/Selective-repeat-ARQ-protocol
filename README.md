@@ -21,3 +21,27 @@ Most of the communication channels experience some pitfalls.This paper begins by
 
   1. Implementing ARQ selective-repeat protocol with time-diversity in Markov channels in MATLAB programming language.
   2. Finding the throughput of the ARQ selective repeat protocol.
+
+**File structure :**
+
+  1. main.m - The main file that is run is matlab, controls the whole process of simulation.
+  2. packet.m - The class packet is implemented in this.
+  3. check_empty.m - Checks whether a vector is empty
+  4. check_complete.m - Checks whether a vector is full
+  5. check_complete_block.m - checks whether block transmission is done.
+  6. fill_slot.m - function to fill the buffer
+  7. get_random.m - returns random value.
+  8. transmit_buffer.m - clears the buffer 
+  9. introduction.md - basic explanation of the protocol used and the project as a whole
+  10. images - these are the image files that are linked to the introduction.md file
+  11. Design.md - Explains the design procedure of the algorithm.  
+  12. test_run.txt - has the output of the test run for graph in the repository 
+  13. Graph - test run -- This has the graph obtained from testing the code with output in test_run.txt
+  
+**Graph:**
+<br><br>
+![](./Graph_test_run.png)
+
+  
+  
+ 
