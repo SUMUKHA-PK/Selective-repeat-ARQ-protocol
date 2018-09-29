@@ -1,0 +1,593 @@
+Input the number of test runs: 2
+Enter the size of the sender and receiver: 10
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 0
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 0
+Enter the data bits to be sent: 0
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 0
+Enter the data bits to be sent: 1
+     1
+
+     1
+
+     0
+
+     1
+
+     0
+
+     0
+
+     1
+
+     1
+
+     0
+
+     1
+
+Enter the number of packets per block: (n%m must be zero)2
+Sender: 
+     1
+
+     1
+
+Receiver: 
+     1
+
+     1
+
+Bit with index 1 Received late
+Packet with index 2 sent and positive acknowledgement recieved
+Sender: 
+     1
+
+Receiver: 
+     1
+
+     1
+
+Packet with index 1 sent and positive acknowledgement recieved
+Successfully sent packets: 
+     2
+
+Total Sent packets: 
+     3
+
+Sender: 
+     0
+
+     1
+
+Receiver: 
+     1
+
+     1
+
+Negative acknowledgement recieved for bit with index 3
+Bit with index 4 Received late
+Sender: 
+     0
+
+     1
+
+Receiver: 
+     1
+
+     1
+
+Negative acknowledgement recieved for bit with index 3
+Bit with index 4 Received late
+Sender: 
+     0
+
+     1
+
+Receiver: 
+     1
+
+     1
+
+Bit with index 3 Received late
+Packet with index 4 sent and positive acknowledgement recieved
+Sender: 
+     0
+
+Receiver: 
+     1
+
+     1
+
+Negative acknowledgement recieved for bit with index 3
+Sender: 
+     0
+
+Receiver: 
+     1
+
+     1
+
+Negative acknowledgement recieved for bit with index 3
+Sender: 
+     0
+
+Receiver: 
+     1
+
+     1
+
+Bit with index 3 Received late
+Sender: 
+     0
+
+Receiver: 
+     0
+
+     1
+
+Packet with index 3 sent and positive acknowledgement recieved
+Successfully sent packets: 
+     4
+
+Total Sent packets: 
+    13
+
+Sender: 
+     0
+
+     0
+
+Receiver: 
+     0
+
+     1
+
+Packet with index 5 sent and positive acknowledgement recieved
+Negative acknowledgement recieved for bit with index 6
+Sender: 
+     0
+
+Receiver: 
+     0
+
+     1
+
+Negative acknowledgement recieved for bit with index 6
+Sender: 
+     0
+
+Receiver: 
+     0
+
+     1
+
+Negative acknowledgement recieved for bit with index 6
+Sender: 
+     0
+
+Receiver: 
+     0
+
+     1
+
+Negative acknowledgement recieved for bit with index 6
+Sender: 
+     0
+
+Receiver: 
+     0
+
+     0
+
+Packet with index 6 sent and positive acknowledgement recieved
+Successfully sent packets: 
+     6
+
+Total Sent packets: 
+    19
+
+Sender: 
+     1
+
+     1
+
+Receiver: 
+     1
+
+     0
+
+Bit with index 7 Received late
+Negative acknowledgement recieved for bit with index 8
+Sender: 
+     1
+
+     1
+
+Receiver: 
+     0
+
+     1
+
+Negative acknowledgement recieved for bit with index 7
+Packet with index 8 sent and positive acknowledgement recieved
+Sender: 
+     1
+
+Receiver: 
+     0
+
+     1
+
+Negative acknowledgement recieved for bit with index 7
+Sender: 
+     1
+
+Receiver: 
+     0
+
+     1
+
+Negative acknowledgement recieved for bit with index 7
+Sender: 
+     1
+
+Receiver: 
+     0
+
+     1
+
+Negative acknowledgement recieved for bit with index 7
+Sender: 
+     1
+
+Receiver: 
+     1
+
+     1
+
+Packet with index 7 sent and positive acknowledgement recieved
+Successfully sent packets: 
+     8
+
+Total Sent packets: 
+    27
+
+Sender: 
+     0
+
+     1
+
+Receiver: 
+     1
+
+     0
+
+Negative acknowledgement recieved for bit with index 9
+Bit with index 10 Received late
+Sender: 
+     0
+
+     1
+
+Receiver: 
+     0
+
+     0
+
+Packet with index 9 sent and positive acknowledgement recieved
+Negative acknowledgement recieved for bit with index 10
+Sender: 
+     1
+
+Receiver: 
+     0
+
+     0
+
+Negative acknowledgement recieved for bit with index 10
+Sender: 
+     1
+
+Receiver: 
+     0
+
+     1
+
+Bit with index 10 Received late
+Sender: 
+     1
+
+Receiver: 
+     0
+
+     1
+
+Packet with index 10 sent and positive acknowledgement recieved
+Successfully sent packets: 
+    10
+
+Total Sent packets: 
+    34
+
+Throughput is 29.41 percent
+Enter the size of the sender and receiver: 12
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 0
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 0
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 0
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 0
+Enter the data bits to be sent: 1
+Enter the data bits to be sent: 0
+     1
+
+     0
+
+     1
+
+     1
+
+     0
+
+     1
+
+     0
+
+     1
+
+     1
+
+     0
+
+     1
+
+     0
+
+Enter the number of packets per block: (n%m must be zero)4
+Sender: 
+     1
+
+     0
+
+     1
+
+     1
+
+Receiver: 
+     0
+
+     0
+
+     0
+
+     0
+
+Negative acknowledgement recieved for bit with index 1
+Bit with index 2 Received late
+Bit with index 3 Received late
+Bit with index 4 Received late
+Sender: 
+     1
+
+     0
+
+     1
+
+     1
+
+Receiver: 
+     0
+
+     1
+
+     1
+
+     1
+
+Negative acknowledgement recieved for bit with index 1
+Negative acknowledgement recieved for bit with index 2
+Packet with index 3 sent and positive acknowledgement recieved
+Packet with index 4 sent and positive acknowledgement recieved
+Sender: 
+     1
+
+     0
+
+Receiver: 
+     0
+
+     0
+
+     1
+
+     1
+
+Bit with index 1 Received late
+Packet with index 2 sent and positive acknowledgement recieved
+Sender: 
+     1
+
+Receiver: 
+     1
+
+     0
+
+     1
+
+     1
+
+Packet with index 1 sent and positive acknowledgement recieved
+Successfully sent packets: 
+    14
+
+Total Sent packets: 
+    45
+
+Sender: 
+     0
+
+     1
+
+     0
+
+     1
+
+Receiver: 
+     1
+
+     0
+
+     1
+
+     1
+
+Negative acknowledgement recieved for bit with index 5
+Negative acknowledgement recieved for bit with index 6
+Bit with index 7 Received late
+Packet with index 8 sent and positive acknowledgement recieved
+Sender: 
+     0
+
+     1
+
+     0
+
+Receiver: 
+     0
+
+     0
+
+     1
+
+     1
+
+Packet with index 5 sent and positive acknowledgement recieved
+Negative acknowledgement recieved for bit with index 6
+Negative acknowledgement recieved for bit with index 7
+Sender: 
+     1
+
+     0
+
+Receiver: 
+     0
+
+     0
+
+     0
+
+     1
+
+Negative acknowledgement recieved for bit with index 6
+Packet with index 7 sent and positive acknowledgement recieved
+Sender: 
+     1
+
+Receiver: 
+     0
+
+     0
+
+     0
+
+     1
+
+Negative acknowledgement recieved for bit with index 6
+Sender: 
+     1
+
+Receiver: 
+     0
+
+     1
+
+     0
+
+     1
+
+Packet with index 6 sent and positive acknowledgement recieved
+Successfully sent packets: 
+    18
+
+Total Sent packets: 
+    56
+
+Sender: 
+     1
+
+     0
+
+     1
+
+     0
+
+Receiver: 
+     1
+
+     1
+
+     1
+
+     1
+
+Packet with index 9 sent and positive acknowledgement recieved
+Negative acknowledgement recieved for bit with index 10
+Packet with index 11 sent and positive acknowledgement recieved
+Negative acknowledgement recieved for bit with index 12
+Sender: 
+     0
+
+     0
+
+Receiver: 
+     1
+
+     1
+
+     1
+
+     0
+
+Negative acknowledgement recieved for bit with index 10
+Packet with index 12 sent and positive acknowledgement recieved
+Sender: 
+     0
+
+Receiver: 
+     1
+
+     1
+
+     1
+
+     0
+
+Bit with index 10 Received late
+Sender: 
+     0
+
+Receiver: 
+     1
+
+     0
+
+     1
+
+     0
+
+Packet with index 10 sent and positive acknowledgement recieved
+Successfully sent packets: 
+    22
+
+Total Sent packets: 
+    64
+
+Throughput is 34.38 percent
